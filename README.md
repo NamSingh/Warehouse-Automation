@@ -12,7 +12,7 @@ This reinforcement learning model relies on the Gymnasium Frozen Lake Environmen
 
 
 ### Running the Code:
-The code has been provided in both an ipynb format and a python file format. Two format formats have been provided, so you may run whichever format you prefer. The only difference, is that the `.py` format will show a frame by frame emulation, of the final run.
+The code has been provided in both an ipynb format and a python file format, you may run whichever format you prefer. The only difference, is that the `.py` format will show a frame by frame emulation, of the final run.
 
 The code will first run through an example with Q-Learning, and then runs through an example with SARSA.
 By default, it uses the same set of hyper-parameters for both RL Agents.
