@@ -1,4 +1,3 @@
-
 # Warehouse Automation: Reinforcement Learning for Robot Navigation
 
 This project implements **Reinforcement Learning** to train robots to navigate a storage warehouse, avoid obstacles, and deliver packages efficiently. Using algorithms like **Q-Learning** and **SARSA**, the model explores strategies for optimal movement within the **Gymnasium Frozen Lake environment**. The final result is a visual emulation of the trained robot navigating the warehouse, showcasing its learned path.
