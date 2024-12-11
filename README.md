@@ -2,6 +2,17 @@
 
 This project implements **Reinforcement Learning** to train robots to navigate a storage warehouse, avoid obstacles, and deliver packages efficiently. Using algorithms like **Q-Learning** and **SARSA**, the model explores strategies for optimal movement within the **Gymnasium Frozen Lake environment**. The final result is a visual emulation of the trained robot navigating the warehouse, showcasing its learned path.
 
+## 📑 **Table of Contents**
+
+1. [Business Value and Real-World Applications](#-business-value-and-real-world-applications)
+2. [Technologies Used](#-technologies-used)
+3. [What the Code Does](#-what-the-code-does)
+4. [How to Run the Code](#-how-to-run-the-code)
+5. [Key Highlights](#-key-highlights)
+6. [References](#-references)
+
+---
+
 ## 🌍 **Business Value and Real-World Applications**
 
 Warehouse automation is at the forefront of supply chain innovation, driven by increasing consumer demand for faster shipping and the rising trend of intelligent robotics. This project demonstrates how **Reinforcement Learning (RL)** can optimize robot navigation in a warehouse to address real-world challenges and deliver measurable business value.
@@ -16,18 +27,21 @@ Warehouse automation is at the forefront of supply chain innovation, driven by i
 - **Scalability in Operations**: Customizable RL models enable adaptation to dynamic warehouse layouts and varied operational requirements.  
 - **Driving Innovation**: Investments like Amazon's $1 billion in supply chain automation highlight the growing focus on AI-driven logistics.  
 
+---
 
 ## 🛠️ **Technologies Used**
 
-- Python
-- OpenAI Gym & Gymnasium
-- Reinforcement Learning Algorithms:
+- **Python**
+- **OpenAI Gym & Gymnasium**
+- **Reinforcement Learning Algorithms:**
   - Q-Learning
   - SARSA
-- Visualization:
+- **Visualization:**
   - PyGame
   - IPyWidgets
   - TQDM (progress tracking)
+
+---
 
 ## 🔎 **What the Code Does**
 
@@ -47,29 +61,36 @@ The project is organized into the following key components:
 4. **Evaluation**:  
    - Compares performance metrics between Q-Learning and SARSA for different hyperparameter configurations.  
 
+---
+
 ## 🚀 **How to Run the Code**
 
-1. Clone the repository:  
+1. **Clone the repository**:  
    ```bash
    git clone https://github.com/NamSingh/Warehouse-Automation.git
    cd Warehouse-Automation
    ```
 
-2. Update the image folder location (ctrl+f "Task 1" to find the task in the code)
+2. **Update the image folder location**:  
+   (Search for **Task 1** in the code to find and update the folder location.)
 
-3. Modify and update any required hyperparameters for training (ctrl+f "Task 2" to find the task in the code)
+3. **Modify hyperparameters**:  
+   (Search for **Task 2** in the code to modify and update any required hyperparameters for training.)
 
-4. Customize the project and warehouse (optional):  
-   - Create custom maps for Q-Learning (`Task 4`) or SARSA (`Task 5`).
+4. **Customize the project and warehouse (Optional)**:  
+   - **For Q-Learning**: Update the custom map by finding **Task 4** in the code.  
+   - **For SARSA**: Update the custom map by finding **Task 5** in the code.
 
-5. Run the code in your preferred format:  
-   - For Jupyter Notebook:  
+5. **Run the code**:  
+   - **For Jupyter Notebook**:  
      Open and run `RL-WarehouseAutomation.ipynb`.  
-   - For Python script:  
+   - **For Python script**:  
      Execute the Python file to see a frame-by-frame emulation of the robot's movements:  
      ```bash
      python RL-WarehouseAutomation.py
      ```
+
+---
 
 ## 🚀 **Key Highlights**
 
@@ -78,6 +99,8 @@ The project is organized into the following key components:
 - **Performance on Random Maps**: RL algorithms worked effectively on randomly generated maps up to 15 x 15 in size, with a 10% probability of shelves, showcasing adaptability to dynamic and unpredictable layouts.  
 - **Improved Efficiency**: Achieved significant reductions in robot travel time and energy consumption, leading to higher productivity and optimized operations.  
 - **Practical Impact**: This solution lays the groundwork for scalable, intelligent automation in warehouse logistics, aligning with industry trends and technological advancements.   
+
+---
 
 ## 📜 **References**
 
