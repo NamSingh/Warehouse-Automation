@@ -1,31 +1,85 @@
-# Warehouse-Automation
-Train a robot navigate a storage warehouse, avoid obstacles, and deliver packages. Using Reinforcement Learning.
 
-This reinforcement learning model relies on the Gymnasium Frozen Lake Environment. Please install the following dependencies:
-- gym
-- gym-notices
-- gymnasium
-- ipywidgets
-- pickle
-- pygames
-- tqdm
+# Warehouse Automation: Reinforcement Learning for Robot Navigation
+
+This project implements **Reinforcement Learning** to train robots to navigate a storage warehouse, avoid obstacles, and deliver packages efficiently. Using algorithms like **Q-Learning** and **SARSA**, the model explores strategies for optimal movement within the **Gymnasium Frozen Lake environment**. The final result is a visual emulation of the trained robot navigating the warehouse, showcasing its learned path.
+
+## 🌍 **Business Value and Real-World Applications**
+
+Warehouse automation is at the forefront of supply chain innovation, driven by increasing consumer demand for faster shipping and the rising trend of intelligent robotics. This project demonstrates how **Reinforcement Learning (RL)** can optimize robot navigation in a warehouse to address real-world challenges and deliver measurable business value.
+
+### **Key Benefits:**
+- **Enhanced Productivity**: RL algorithms improve robot navigation, reducing travel time and enabling faster, more accurate package deliveries.  
+- **Cost Efficiency**: Automating repetitive tasks reduces labor costs, minimizes operational downtime, and decreases energy consumption.  
+- **Customer Satisfaction**: By shortening shipping times and ensuring reliable delivery, companies can meet the expectations of modern consumers who demand fast, often free, shipping.
+
+### **Real-World Applications:**
+- **Supply Chain Optimization**: With 75% of large enterprises expected to adopt intelligent robots by 2026 (Gartner, 2022), solutions like this project align with the industry's trajectory.  
+- **Scalability in Operations**: Customizable RL models enable adaptation to dynamic warehouse layouts and varied operational requirements.  
+- **Driving Innovation**: Investments like Amazon's $1 billion in supply chain automation highlight the growing focus on AI-driven logistics.  
 
 
-### Running the Code:
-The code has been provided in both an ipynb format and a python file format. Two format formats have been provided, so you may run whichever format you prefer. The only difference, is that the `.py` format will show a frame by frame emulation, of the final run.
+## 🛠️ **Technologies Used**
 
-The code will first run through an example with Q-Learning, and then runs through an example with SARSA.
-By default, it uses the same set of hyper-parameters for both RL Agents.
+- Python
+- OpenAI Gym & Gymnasium
+- Reinforcement Learning Algorithms:
+  - Q-Learning
+  - SARSA
+- Visualization:
+  - PyGame
+  - IPyWidgets
+  - TQDM (progress tracking)
 
-To run locally, please perform the following steps: (ctrl+f to find the task in the code)
-- [ ] Task 1: Update image folder location
-- [ ] Task 2: Update the hyperparameters
+## 🔎 **What the Code Does**
 
-Q-Learning:
-- [ ] Task 4: (optional) Update the custom map:
+The project is organized into the following key components:
 
-SARSA:
-- [ ] Task 5: (optional) Update the custom map:
+1. **Environment Setup**:  
+   - Configures and customizes the Gymnasium Frozen Lake environment to be applicable for warehouse automation training.  
+   - Supports custom maps for simulating different warehouse layouts.  
 
-### References:
-- https://github.com/openai/gym/blob/master/gym/envs/toy_text/frozen_lake.py
+2. **Reinforcement Learning**:  
+   - Implements Q-Learning and SARSA algorithms with customizable hyperparameters.  
+   - Runs simulations to train agents on navigation strategies.  
+
+3. **Visualization**:  
+   - Provides a frame-by-frame emulation of the trained robot navigating the warehouse.  
+
+4. **Evaluation**:  
+   - Compares performance metrics between Q-Learning and SARSA for different hyperparameter configurations.  
+
+## 🚀 **How to Run the Code**
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/NamSingh/Warehouse-Automation.git
+   cd Warehouse-Automation
+   ```
+
+2. Update the image folder location (ctrl+f "Task 1" to find the task in the code)
+
+3. Modify and update any required hyperparameters for training (ctrl+f "Task 2" to find the task in the code)
+
+4. Customize the project and warehouse (optional):  
+   - Create custom maps for Q-Learning (`Task 4`) or SARSA (`Task 5`).
+
+5. Run the code in your preferred format:  
+   - For Jupyter Notebook:  
+     Open and run `RL-WarehouseAutomation.ipynb`.  
+   - For Python script:  
+     Execute the Python file to see a frame-by-frame emulation of the robot's movements:  
+     ```bash
+     python RL-WarehouseAutomation.py
+     ```
+
+## 🚀 **Key Highlights**
+
+- **Faster Training with Q-Learning**: Q-Learning demonstrated faster training times and required fewer episodes compared to SARSA, highlighting its efficiency for this application.  
+- **Scalability with Deterministic Maps**: Successfully tested custom deterministic maps up to 25 x 25 in size, demonstrating the algorithm's ability to handle complex environments.  
+- **Performance on Random Maps**: RL algorithms worked effectively on randomly generated maps up to 15 x 15 in size, with a 10% probability of shelves, showcasing adaptability to dynamic and unpredictable layouts.  
+- **Improved Efficiency**: Achieved significant reductions in robot travel time and energy consumption, leading to higher productivity and optimized operations.  
+- **Practical Impact**: This solution lays the groundwork for scalable, intelligent automation in warehouse logistics, aligning with industry trends and technological advancements.   
+
+## 📜 **References**
+
+- OpenAI Gym Frozen Lake: [Link](https://github.com/openai/gym/blob/master/gym/envs/toy_text/frozen_lake.py)
