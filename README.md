@@ -92,7 +92,7 @@ The project is organized into the following key components:
 
 ---
 
-## 🚀 **Key Highlights**
+## ✨ **Key Highlights**
 
 - **Faster Training with Q-Learning**: Q-Learning demonstrated faster training times and required fewer episodes compared to SARSA, highlighting its efficiency for this application.  
 - **Scalability with Deterministic Maps**: Successfully tested custom deterministic maps up to 25 x 25 in size, demonstrating the algorithm's ability to handle complex environments.  
